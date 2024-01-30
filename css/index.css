@@ -1,1 +1,12 @@
-@import url(./base.css);
+.main {
+  padding: 150px;
+}
+
+.main-heading {
+  font-size: 128px;
+  font-weight: 700;
+}
+
+.main-subheading {
+  font-size: 40px;
+}
