@@ -1,11 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 :root {
-    --primary-color: #FF7B54;
-    --text-primary-color: #FFFFFF;
-    --inter-font-regular: "Inter", sans-serif;
+  --color-primary: #ff7b54;
+  --color-text-primary: #ffffff;
+  --font-family: "Inter", sans-serif;
 }
 
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-primary);
+  color: var(--color-text-primary);
+}
 
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 34px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo nav cart";
+  align-items: center;
+  padding: 0 60px;
+}
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-logo {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.nav {
+  display: inline-block;
+  justify-self: end;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list-item {
+  margin-inline-end: 36px;
+  font-size: 20px;
+}
