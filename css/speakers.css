@@ -1,0 +1,57 @@
+@import url(./base.css);
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 150px;
+  row-gap: 120px;
+}
+
+.speakers-title {
+  font-size: 90px;
+}
+
+.icon-primary g path {
+  fill: var(--color-primary);
+}
+
+.speaker-wrapper {
+  max-width: 460px;
+}
+
+.speaker-photo {
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+  margin-bottom: 36px;
+}
+
+.top {
+  object-position: top;
+}
+
+.speaker-name {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.company {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.company-bio {
+  font-size: 20px;
+}
+
+.company,
+.company-bio {
+  color: var(--color-text-secondary);
+}
+
+@media (width < 1000px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

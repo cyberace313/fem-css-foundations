@@ -1,6 +1,4 @@
-.main {
-  padding: 150px;
-}
+@import url(./base.css);
 
 .main-heading {
   font-size: 128px;
