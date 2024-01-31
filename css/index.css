@@ -4,6 +4,9 @@
   fill: var(--color-text-primary);
 }
 
+.body-primary .close-icon path {
+  fill: var(--color-text-primary);
+}
 .main-heading {
   font-size: 128px;
   font-weight: 700;

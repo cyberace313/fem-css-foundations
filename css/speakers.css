@@ -55,3 +55,13 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 840px) {
+  .nav {
+    background-color: var(--color-text-primary);
+  }
+
+  .body-no-scroll {
+    overflow: hidden;
+  }
+}
