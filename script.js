@@ -16,3 +16,4 @@ close.addEventListener("click", () => {
   menu.style.display = "block";
   body.classList.remove("body-no-scroll");
 });
+    
